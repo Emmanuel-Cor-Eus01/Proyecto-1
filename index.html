@@ -5,22 +5,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto landing de ventas</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>Proyecto Landing de Ventas</title>
 </head>
 <body>
-    <header>
+    <header class="header-wrapper">
         <!-- titulo -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="">inicio</a>
-                    <a href="">Nosotros</a>
-                    <a href="">Productos</a>
-                    <a href="">Contacto</a>
-                    <a href="">Unete</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="header-logo">
+            <img class="logo" src="assets/images/logo.png" alt="La imagen no cargo correctamente" >
+        </div>
+        <div class="header-title">
+            <h1>S H E L L</h1>
+        </div>
+        <div class="header-nav">
+            <nav class="nav">
+                <a href="">inicio</a>
+                <a href="">Nosotros</a>
+                <a href="">Productos</a>
+                <a href="">Contacto</a>
+                <a href="">Unete</a>
+            </nav>
+        </div>
+    </header>
+    <section class="hero-wrapper">
+        <div class="hero">
+            <div class="hero-inner">
+                <h1>Accesorios Electronicos</h1>
+                <h2>!La mejor tecnologia, 100% recomedados!</h2>
+                <a href="" class="btn">Ver Productos</a>
+            </div>
+        </div>
+    </section>
+    <main class="main-container">
+        <h1>Nuestros Productos</h1>
+        <section class="product-wrapper">
+            <div class="card">
+                <img src="assets/images/aro 14.jpg" alt="aro" style="width: 100%;">
+                <div class="container">
+                    <h4><b>Aro de 14 pulgadas</b></h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias distinctio
+                        laborum labore, soluta nisi inventore minima.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/bocina.jpg" alt="Bocinas" style="width: 100%;">
+                <div class="container">
+                    <h4><b>Bocinas</b></h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias distinctio
+                        laborum labore, soluta nisi inventore minima.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/luz rgb.jpg" alt="RGB">
+                <div class="container">
+                    <h4><b>Luz RGB</b></h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias distinctio
+                        laborum labore, soluta nisi inventore minima.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/neon flexible.png" alt="neon">
+                <div class="container">
+                    <h4><b>Luz neon flexible</b></h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias distinctio
+                        laborum labore, soluta nisi inventore minima.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/sony.jpg" alt="Sonny">
+                <div class="container">
+                    <h4><b>Audifonos Sonny</b></h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias distinctio
+                        laborum labore, soluta nisi inventore minima.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/stn.jpg" alt="audifonos">
+                <div class="container">
+                    <h4><b>Audifonos STN</b></h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias distinctio
+                        laborum labore, soluta nisi inventore minima.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="add-wrapper">
+        <h1>Registrate con nosotros</h1>
+        <div class="add-hijo">
+            <label for="user">Usuario</label>
+                <input type="text" id="user">
+                <label for="password">Contraseña</label>
+                <input type="password" name="" id="password">
+                <label for="email">Correo</label>
+                <input type="email" name="" id="email">
+                <label for="date">Fecha de nacimiento</label>
+                <input type="date" name="" id="date">
+                <!-- <input type="file" name="" id="">
+                <input type="color" name="" id="">
+                <label for="">te gustan nuestras galletas?</label>
+                <input type="checkbox" name="" id=""> -->
+                <button>Registrate!</button>
+        </div>
+    </div>
+    <main>
+        <!-- contenido -->
         <section class="Productos">
             <h1>Venta de accesorios</h1>
             <img src="" alt="La imagen no cargo adecuadamente">
@@ -48,10 +136,6 @@
                 <button>Registrate!</button>
             </form>
         </section>
-    </header>
-    <main>
-        <!-- contenido -->
-
     </main>
     <footer>
         <!-- contenido y enlaces -->
