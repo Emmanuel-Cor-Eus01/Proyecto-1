@@ -152,7 +152,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="dat
     color: #ffffff;
     display: flex;
     flex-wrap: wrap;
-    height: 500px;
+    height: 600px;
     /* centra horizontalmente */
     padding: 10px;
     justify-content: center;
