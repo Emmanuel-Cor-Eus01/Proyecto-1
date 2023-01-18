@@ -341,3 +341,77 @@ input[type="text"], input[type="password"], input[type="email"], input[type="dat
         width: 60%;
     }
 }
+@media screen and (max-width: 700px) {
+    .header-wrapper {
+        grid-template-columns: 1fr;
+        grid-template-rows: 5rem 5rem 5rem;
+    }
+
+    .header-logo {
+        text-align: center;
+    }
+
+    .header-title {
+        text-align: center;
+    }
+
+    .header-input {
+        text-align: center;
+    }
+
+    .card img {
+        height: 250px;
+        width: 100%;
+    }
+    .product-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        padding: 10px;
+    }
+    input[type="text"], input[type="password"], input[type="email"], input[type="date"] {
+        width: 100%;
+        padding: 5px 9px;
+        margin: 3px 0;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        transition: 0.5s;
+        outline: none;
+    }
+    .add-wrapper h1{
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .add-wrapper input, label{
+        align-items: center;
+    }
+    .add-wrapper button{
+        display: block;
+        width: 200px;
+        padding: 1em;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #000000;
+        text-decoration: none;
+        font-size: 1em;
+
+        border: 3px solid white;
+        border-radius: 20px;
+    }
+    .add-wrapper{
+        background-color:#023373;
+        color: #ffffff;
+        display: flex;
+        flex-wrap: wrap;
+        height: 500px;
+        /* centra horizontalmente */
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .add-hijo{
+        height: 480px;
+        width: 60%;
+    }
+}
