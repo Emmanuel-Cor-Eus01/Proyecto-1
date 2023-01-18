@@ -10,7 +10,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     color: white;
     grid-template-rows: 5rem;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
 }
 .logo{
