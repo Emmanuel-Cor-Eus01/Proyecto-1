@@ -266,6 +266,17 @@ input[type="text"], input[type="password"], input[type="email"], input[type="dat
         height: 480px;
         width: 40%;
     }
+    .foot{
+        background-color: #000000;
+        text-align: center;
+        color: white;
+        height: 350px;
+    }
+    .cfoot{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+}
 }
 @media screen and (max-width: 768px) {
     .header-wrapper {
@@ -341,6 +352,17 @@ input[type="text"], input[type="password"], input[type="email"], input[type="dat
         width: 60%;
     }
 }
+.foot{
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    height: 300px;
+}
+.cfoot{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: auto;
+}
 @media screen and (max-width: 700px) {
     .header-wrapper {
         grid-template-columns: 1fr;
@@ -413,5 +435,16 @@ input[type="text"], input[type="password"], input[type="email"], input[type="dat
     .add-hijo{
         height: 480px;
         width: 60%;
+    }
+    .foot{
+        background-color: #000000;
+        text-align: center;
+        color: white;
+        height: 300px;
+    }
+    .cfoot{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
     }
 }
